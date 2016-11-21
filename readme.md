@@ -79,6 +79,14 @@ Default: `JSON`
 An object with `parse` and `stringify` methods. This can be used to provide a
 custom transformer instead of the default `JSON` for the manifest file.
 
+##### cdn
+
+Type: `string`<br>
+Default: `''`
+
+A string to set the absolute path for asset location. This is useful for assets 
+uploaded to a cdn.
+
 
 ### Original path
 
